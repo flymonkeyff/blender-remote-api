@@ -8,3 +8,6 @@ services:
     region: oregon
     branch: main
     healthCheckPath: /
+    envVars:
+      - key: PORT
+        value: 10000
